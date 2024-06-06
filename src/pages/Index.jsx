@@ -92,7 +92,7 @@ const Index = () => {
 
       {/* Footer Section */}
       <Box as="footer" bg="teal.500" color="white" py={4} mt={8} textAlign="center">
-        <Text>&copy; 2023 Statistik Consulting. Alle Rechte vorbehalten.</Text>
+        <Text>&copy; 2024 Statistik Consulting. Alle Rechte vorbehalten.</Text>
       </Box>
     </Container>
   );
