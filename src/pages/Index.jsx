@@ -39,20 +39,40 @@ const Index = () => {
           </HStack>
         </Box>
 
-        {/* Call to Action Section */}
+        {}
         <Box textAlign="center">
           <Heading as="h2" size="lg" mb={4}>
-            Kontaktiere uns
+            Unser 4-Stufiger Prozess
           </Heading>
-          <Text fontSize="md" mb={4}>
-            Bereit, deine statistischen Herausforderungen zu meistern? Kontaktiere uns noch heute!
-          </Text>
-          <Button colorScheme="teal" size="lg">
-            Jetzt Kontakt aufnehmen
-          </Button>
+          <VStack spacing={8}>
+            <Box>
+              <Heading as="h3" size="md" mb={2}>
+                1. Erstberatung
+              </Heading>
+              <Text fontSize="md">Wir besprechen deine Anforderungen und Ziele.</Text>
+            </Box>
+            <Box>
+              <Heading as="h3" size="md" mb={2}>
+                2. Analyseplanung
+              </Heading>
+              <Text fontSize="md">Wir erstellen einen detaillierten Plan für deine statistische Analyse.</Text>
+            </Box>
+            <Box>
+              <Heading as="h3" size="md" mb={2}>
+                3. Durchführung
+              </Heading>
+              <Text fontSize="md">Wir führen die geplanten Analysen durch und dokumentieren die Ergebnisse.</Text>
+            </Box>
+            <Box>
+              <Heading as="h3" size="md" mb={2}>
+                4. Abschlussbesprechung
+              </Heading>
+              <Text fontSize="md">Wir besprechen die Ergebnisse und geben dir Empfehlungen für die nächsten Schritte.</Text>
+            </Box>
+          </VStack>
         </Box>
 
-        {/* Contact Information */}
+        {}
         <Box textAlign="center">
           <Heading as="h2" size="lg" mb={4}>
             Kontaktinformationen
